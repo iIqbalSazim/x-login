@@ -1,5 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background: #000;
+  background:#000;
+  color: white;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.x-wrapper {
+  margin: 2rem 0;
+  width: 35%;
+  max-width: 400px;
+}
+
+.x-wrapper img {
+  width: 100%;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.auth-container h2 {
+  font-size: 2rem;
+}
+
+.auth-container .button-group {
+  display: flex;
+  flex-direction: column;
+  max-width: 310px;
+}
+
+.auth-container .button-group button {
+  margin: 6px;
+  padding: 11px;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  border: 0;
+  font-weight: 600;
+}
+
+.auth-container .button-group .or-divider {
+   margin: 10px 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.auth-container .button-group .or-divider .line {
+  background-color: rgb(47, 51, 54);
+  height: 1px;
+  width: 10px;
+  flex-grow: 1;
+  margin: 0 0.5rem;
+}
+
+.auth-container .button-group .create-account {
+  background-color: rgb(29, 155, 240);
   color: white;
 }
 
+.auth-container .button-group .terms-of-service {
+  font-size: 0.8rem;
+  color: gray;
+  margin-top: 0;
+}
+
+.auth-container .button-group h3 {
+  margin-top: 3rem;
+}
+
+.auth-container .button-group .sign-in {
+  color: rgb(29, 155, 240);
+  background-color: inherit;
+  border: 0.001px solid rgb(83, 100, 113);
+}
+
+footer {
+  color: gray;
+  margin: 2rem 0;
+}
