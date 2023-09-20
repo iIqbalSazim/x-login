@@ -1,10 +1,11 @@
 import x from "./Assets/x.png";
+import { AuthPageContainer, HeroContainer } from "./AuthPage.styles";
 import Footer from "./Footer/Footer";
 
 const AuthPage = () => {
   return (
-    <div>
-      <main>
+    <AuthPageContainer>
+      <HeroContainer>
         <div>
           <img src={x} alt="x-logo" />
         </div>
@@ -28,9 +29,9 @@ const AuthPage = () => {
             <button>Sign in</button>
           </div>
         </section>
-      </main>
+      </HeroContainer>
       <Footer />
-    </div>
+    </AuthPageContainer>
   );
 };
 
