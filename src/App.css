@@ -3,16 +3,19 @@
 }
 
 body {
-  background:#000;
-  color: white;
   margin: 0;
   padding: 0;
+  background:#000;
+  color: white;
+}
+
+.auth-page {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-.auth-page {
+.auth-page main {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -95,7 +98,17 @@ body {
   border: 0.001px solid rgb(83, 100, 113);
 }
 
-footer {
-  color: gray;
-  margin: 2rem 0;
+.auth-page footer {
+  color: rgb(113, 118, 123);
+  margin: 0.7rem 0;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.auth-page footer div {
+  border: #000 solid 1px;
+  margin: 0 0.4rem;
+  text-align: center;
 }

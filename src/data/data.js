@@ -1,9 +1,4 @@
-[
-  { title: "Create account" },
-  { title: "Terms of Service" },
-  { title: "Privacy Policy" },
-  { title: "Cookie Use." },
-  { title: "Sign in" },
+export const footerData = [
   { title: "About" },
   { title: "Help Center" },
   { title: "Terms of Service" },
@@ -21,4 +16,5 @@
   { title: "Developers" },
   { title: "Directory" },
   { title: "Settings" },
+  { title: "© 2023 X Corp." },
 ];
