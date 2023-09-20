@@ -1,12 +1,13 @@
 import { footerData } from "./Data/Data.js";
+import { FooterDiv, StyledFooter } from "./Footer.styles.jsx";
 
 const Footer = () => {
   return (
-    <footer>
+    <StyledFooter>
       {footerData.map((el) => (
-        <div key={el.title}>{el.title}</div>
+        <FooterDiv key={el.title}>{el.title}</FooterDiv>
       ))}
-    </footer>
+    </StyledFooter>
   );
 };
 
