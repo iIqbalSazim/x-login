@@ -13,6 +13,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin: 0 3rem;
 }
 
 .auth-page main {
@@ -25,7 +26,7 @@ body {
 
 .x-wrapper {
   margin: 2rem 0;
-  width: 35%;
+  width: 40%;
   max-width: 400px;
 }
 
@@ -63,10 +64,10 @@ body {
 }
 
 .auth-container .button-group .or-divider {
-   margin: 10px 0;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .auth-container .button-group .or-divider .line {
@@ -111,4 +112,21 @@ body {
   border: #000 solid 1px;
   margin: 0 0.4rem;
   text-align: center;
+}
+
+
+@media screen and (max-width: 900px) {
+  .auth-page main { 
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    padding-right: 30%;
+    margin-left: 5%;
+  }
+  
+  .x-wrapper {
+    width: 50px;
+    margin: 40px 0 0 0 ;
+    padding: 0;
+  }
 }
