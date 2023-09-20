@@ -112,3 +112,18 @@ body {
   margin: 0 0.4rem;
   text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+  .auth-container h1 {
+    font-size: 4rem;
+  }
+  
+  .auth-container h2 {
+    font-size: 1rem;
+  }
+
+  .auth-container .button-group {
+    max-width: 300px;
+  }
+}
+
