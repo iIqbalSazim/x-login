@@ -1,32 +1,34 @@
 import {
-  AlreadyHaveAccount,
-  AuthButton,
-  ButtonGroupContainer,
-  CreateAccount,
-  Line,
-  OrDivider,
-  SignIn,
-  TermsOfService,
-} from "./ButtonGroup.styles";
+  StyledAlreadyHaveAccount,
+  StyledAuthButton,
+  StyledButtonGroupContainer,
+  StyledCreateAccount,
+  StyledLine,
+  StyledOrDivider,
+  StyledSignIn,
+  StyledTermsOfService,
+} from "./ButtonGroupStyles";
 
 const ButtonGroup = () => {
   return (
-    <ButtonGroupContainer>
-      <AuthButton>Sign up with Google</AuthButton>
-      <AuthButton>Sign up with Apple</AuthButton>
-      <OrDivider>
-        <Line />
+    <StyledButtonGroupContainer>
+      <StyledAuthButton>Sign up with Google</StyledAuthButton>
+      <StyledAuthButton>Sign up with Apple</StyledAuthButton>
+      <StyledOrDivider>
+        <StyledLine />
         or
-        <Line />
-      </OrDivider>
-      <CreateAccount>Create account</CreateAccount>
-      <TermsOfService>
+        <StyledLine />
+      </StyledOrDivider>
+      <StyledCreateAccount>Create account</StyledCreateAccount>
+      <StyledTermsOfService>
         By signing up, you agree to the Terms of Service and Privacy Policy,
         including Cookie Use.
-      </TermsOfService>
-      <AlreadyHaveAccount>Already have an account?</AlreadyHaveAccount>
-      <SignIn>Sign in</SignIn>
-    </ButtonGroupContainer>
+      </StyledTermsOfService>
+      <StyledAlreadyHaveAccount>
+        Already have an account?
+      </StyledAlreadyHaveAccount>
+      <StyledSignIn>Sign in</StyledSignIn>
+    </StyledButtonGroupContainer>
   );
 };
 

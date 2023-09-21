@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-export const ButtonGroupContainer = styled.div`
+export const StyledButtonGroupContainer = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 310px;
 `;
 
-export const AuthButton = styled.button`
+export const StyledAuthButton = styled.button`
   margin: 6px;
   padding: 11px;
   border-radius: 30px;
@@ -15,14 +15,14 @@ export const AuthButton = styled.button`
   font-weight: 600;
 `;
 
-export const OrDivider = styled.div`
+export const StyledOrDivider = styled.div`
   margin: 10px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 `;
 
-export const Line = styled.span`
+export const StyledLine = styled.span`
   background-color: rgb(47, 51, 54);
   height: 1px;
   width: 10px;
@@ -30,22 +30,22 @@ export const Line = styled.span`
   margin: 0 0.5rem;
 `;
 
-export const CreateAccount = styled(AuthButton)`
+export const StyledCreateAccount = styled(StyledAuthButton)`
   background-color: rgb(29, 155, 240);
   color: white;
 `;
 
-export const TermsOfService = styled.p`
+export const StyledTermsOfService = styled.p`
   font-size: 0.8rem;
   color: gray;
   margin-top: 0;
 `;
 
-export const AlreadyHaveAccount = styled.h3`
+export const StyledAlreadyHaveAccount = styled.h3`
   margin-top: 3rem;
 `;
 
-export const SignIn = styled(AuthButton)`
+export const StyledSignIn = styled(StyledAuthButton)`
   color: rgb(29, 155, 240);
   background-color: inherit;
   border: 0.001px solid rgb(83, 100, 113);

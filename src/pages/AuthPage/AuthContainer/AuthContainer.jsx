@@ -1,17 +1,17 @@
 import {
-  AuthHeading1,
-  AuthHeading2,
-  AuthWrapper,
-} from "./AuthContainer.styles";
+  StyledAuthHeading1,
+  StyledAuthHeading2,
+  StyledAuthWrapper,
+} from "./AuthContainerStyles";
 import ButtonGroup from "./ButtonGroup/ButtonGroup";
 
 const AuthContainer = () => {
   return (
-    <AuthWrapper>
-      <AuthHeading1>Happening Now</AuthHeading1>
-      <AuthHeading2>Join today.</AuthHeading2>
+    <StyledAuthWrapper>
+      <StyledAuthHeading1>Happening Now</StyledAuthHeading1>
+      <StyledAuthHeading2>Join today.</StyledAuthHeading2>
       <ButtonGroup />
-    </AuthWrapper>
+    </StyledAuthWrapper>
   );
 };
 
