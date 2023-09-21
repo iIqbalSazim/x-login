@@ -1,11 +1,11 @@
-import { LogoImage, LogoWrapper } from "./Logo.styles";
+import { StyledLogoImage, StyledLogoWrapper } from "./LogoStyles";
 import x from "./Assets/x.png";
 
 const Logo = () => {
   return (
-    <LogoWrapper>
-      <LogoImage src={x} alt="x-logo" />
-    </LogoWrapper>
+    <StyledLogoWrapper>
+      <StyledLogoImage src={x} alt="x-logo" />
+    </StyledLogoWrapper>
   );
 };
 

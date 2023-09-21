@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-export const LogoWrapper = styled.div`
+export const StyledLogoWrapper = styled.div`
   margin: 2rem 0;
   width: 40%;
   max-width: 400px;
 `;
 
-export const LogoImage = styled.img`
+export const StyledLogoImage = styled.img`
   width: 100%;
 `;
