@@ -9,7 +9,7 @@ export const StyledFooter = styled.footer`
   flex-wrap: wrap;
 `;
 
-export const FooterDiv = styled.div`
+export const StyledFooterItem = styled.div`
   border: #000 solid 1px;
   margin: 0 0.4rem;
   text-align: center;
