@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledAuthPageContainer = styled.div`
-  min-height: 100vh;
+  min-height: 60rem;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -17,6 +17,7 @@ export const StyledHeroContainer = styled.main`
   justify-content: left;
   align-items: flex-start;
   flex-grow: 1;
+  width: 100%;
   padding-right: 6rem;
   margin-left: 2rem;
 
